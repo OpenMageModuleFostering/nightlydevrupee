@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>nightlydevrupee</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://license.nightlydev.org">GNU General Public License (GPLv3)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Convert Currency Symbol for Indian Rupee.</summary>
+    <description>Allows to toggle between 'Rs' and the Indian Rupee Symbol (http://en.wikipedia.org/wiki/Indian_rupee_sign).</description>
+    <notes>Allows to toggle between 'Rs' and the Indian Rupee Symbol (http://en.wikipedia.org/wiki/Indian_rupee_sign).</notes>
+    <authors><author><name>Carles Tubio</name><user>nightlydev</user><email>input@nightlydev.org</email></author></authors>
+    <date>2014-10-16</date>
+    <time>00:16:31</time>
+    <contents><target name="magecommunity"><dir name="NightlyDev"><file name="LICENSE" hash="d32239bcb673463ab874e80d47fae504"/><dir name="Rupee"><dir name="Block"><dir name="Adminhtml"><dir name="Button"><file name="Rupee.php" hash="033bba1393c55af17eff505664578c8d"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="33f4459c10a589d103c33d96ab95bf68"/></dir><dir name="controllers"><file name="NightlydevrupeeController.php" hash="895a6f70ed9852fe5461a6b6dbc8f9e1"/></dir><dir name="etc"><file name="config.xml" hash="56831a64c3e6430c2bcebefdf7971498"/><file name="system.xml" hash="c2fcb63e6c65345ba9ae80fa25bc942f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NightlyDev_Rupee.xml" hash="eb41c1954d63824e1cd78f71162e2cbd"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="nightlydev"><dir name="template"><dir name="rupee"><dir name="adminhtml"><dir name="button"><file name="convert.phtml" hash="dc441bd9cc28709fe9fd3a359df9f68a"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>5.5.5</max></php></required></dependencies>
+</package>

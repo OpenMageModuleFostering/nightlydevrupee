@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+      <NightlyDev_Rupee>
+          <version>1.0.0.0</version>
+      </NightlyDev_Rupee>
+  </modules>
+  <global>
+    <models>
+      <nightlydevrupee>
+          <class>NightlyDev_Rupee_Model</class>
+      </nightlydevrupee>
+    </models>
+    <helpers>
+      <nightlydevrupee>
+          <class>NightlyDev_Rupee_Helper</class>
+      </nightlydevrupee>
+    </helpers>
+    <blocks>
+      <nightlydevrupee>
+          <class>NightlyDev_Rupee_Block</class>
+      </nightlydevrupee>
+    </blocks>
+  </global>
+  <admin>
+    <routers>
+      <adminhtml>
+        <args>
+          <modules>
+            <nightlydevrupee before="Mage_Adminhtml">NightlyDev_Rupee</nightlydevrupee>
+          </modules>
+        </args>
+      </adminhtml>
+    </routers>
+  </admin>
+  <default>
+    <currency>
+      <options>
+        <rupee_enabled>0</rupee_enabled>
+      </options>
+    </currency>
+  </default>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/nightlydevrupee",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPLv3)",
+    "homepage": "",
+    "description": "Convert Currency Symbol for Indian Rupee.",
+    "authors": [
+    {
+        "name": "Carles Tubio",
+        "email": "input@nightlydev.org"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

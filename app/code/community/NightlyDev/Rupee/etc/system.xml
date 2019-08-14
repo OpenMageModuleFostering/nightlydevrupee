@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <currency>
+            <groups>
+                <options>
+                    <fields>
+                        <rupee_enabled translate="label">
+                          <frontend_type>button</frontend_type>
+                          <frontend_model>nightlydevrupee/adminhtml_button_rupee</frontend_model>
+                          <sort_order>2</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>0</show_in_website>
+                          <show_in_store>0</show_in_store>
+                        </rupee_enabled>
+                    </fields>
+                </options>
+            </groups>
+        </currency>
+    </sections>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <NightlyDev_Rupee>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core />
+            </depends>
+        </NightlyDev_Rupee>
+    </modules>
+</config>

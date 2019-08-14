@@ -1,0 +1,13 @@
+<?php /* var $this Mage_Adminhtml_Block_System_Config_System_Storage_Media_Synchronize */ ?>
+<script type="text/javascript">
+//<![CDATA[
+		function convert_rupee() {
+      new Ajax.Request("<?php echo $this->getConvertRupeeUrl() ?>", {onSuccess: function(response) {
+        if (response.status==200 && response.responseText)
+          alert(response.responseText);
+          location.reload();
+      }});
+    }
+//]]>
+</script>
+<?php echo $this->getButtonHtml() ?>
